@@ -1,7 +1,7 @@
 {
-  "name": "node-es6-boilerplate",
+  "name": "node-header-parser",
   "version": "1.0.0",
-  "description": "A boilerplate for Node JS projects that supports ES6",
+  "description": "A Node JS service that outputs user client information",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib --source-maps inline --copy-files",
@@ -11,8 +11,10 @@
   "keywords": [
     "es6",
     "babel",
+    "fcc",
+    "header parser",
     "node",
-    "boilerplate"
+    "user agent"
   ],
   "author": "DavidMorais",
   "license": "ISC",
